@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+</head>
+<body>
+    <div class="profile-container">
+        <img src="{% static 'main/images/Profile Picture.jpg' %}" alt="Zirimabagabo Anslem" class="profile-img">
+        <h1>Zirimabagabo Anslem</h1>
+        <p style="color:#6366f1; font-weight:500; margin-bottom:8px;">Computer Scientist | Software Developer | AI/ML Enthusiast</p>
+        <section class="about-section">
+            <h2>About Me</h2>
+            <p>A Computer Scientist with skills in software development (Web and Mobile), Artificial Intelligence (Machine Learning, NLP), Data Analysis (mining, visualization, ETL), and Databases (SQL). Passionate about building impactful solutions and collaborating in teams.</p>
+        </section>
+        <section class="social-section">
+            <h2>Connect with Me</h2>
+            <div class="social-links">
+                <a href="mailto:zbagabo@gmail.com" target="_blank">Email</a>
+                <a href="https://github.com/anslemhuncho" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/anslemzirimabagabo" target="_blank">LinkedIn</a>
+            </div>
+            <div style="margin-top:8px; color:#555; font-size:0.95rem;">Phone: +256 787 063134</div>
+        </section>
+        <section class="other-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Full stack web & mobile development (Django, Flutter)</li>
+                <li>AI/Machine Learning, Embedded Systems</li>
+                <li>Programming: Python, C</li>
+                <li>Statistical analysis with Python</li>
+                <li>Languages: English, Rukiga/Runyankole, Luganda, Kinyarwanda</li>
+            </ul>
+        </section>
+        <section class="other-section">
+            <h2>Experience</h2>
+            <ul>
+                <li><b>Computing Palace, Kavule, Kampala</b> (May 2024 - July 2024):<br>Teamwork, collaboration, web system development (PHP), frontend graphics design.</li>
+                <li><b>Makerere University, BSc Computer Science</b> (Feb 2024 - May 2024):<br>Machine vision, deep learning models, EDA for datasets.</li>
+            </ul>
+        </section>
+        <section class="other-section">
+            <h2>Education</h2>
+            <ul>
+                <li><b>Makerere University, Kampala</b> — BSc Computer Science (Feb 2022 - June 2025)</li>
+                <li><b>Mbarara High School, Mbarara</b> — Advanced Level Certificate (Jan 2019 - Dec 2021)</li>
+                <li><b>Kigezi High School, Kabale</b> — Ordinary Level Certificate (Jan 2014 - Nov 2018)</li>
+            </ul>
+        </section>
+        <section class="other-section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Car Number Plate Detection</li>
+                <li>Embedded System</li>
+                <li>Interpretable Machine Vision Techniques for Crowd Detection</li>
+                <li>Interpretable Machine Vision for Foot and Mouth Disease Detection</li>
+            </ul>
+        </section>
+        <section class="other-section">
+            <h2>Hackathons & Awards</h2>
+            <ul>
+                <li>GDG Kampala - 2023</li>
+                <li>Ayute Africa Challenge - 2024</li>
+                <li>Cross Finance Blockchain - 2025</li>
+                <li>Django Web Application Development (Udemy Certificate - 2022)</li>
+                <li>MLOps and DevOps Certificate (Coursera - 2024)</li>
+            </ul>
+        </section>
+    </div>
+</html>
