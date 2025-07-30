@@ -1,0 +1,26 @@
+# Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+.envrc
+*.egg-info/
+db.sqlite3
+/static/
+/media/
+.DS_Store
+.idea/
+.vscode/
+*.swp

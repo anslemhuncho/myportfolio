@@ -1,24 +1,42 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #f9f9f9 60%, #e0e7ff 100%);
+    background: linear-gradient(120deg, #1e293b 60%, #6366f1 100%);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    position: relative;
 }
 
+.tech-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    background: url('/static/main/images/tech-3d-bg.png') center center/cover no-repeat;
+    opacity: 0.25;
+    pointer-events: none;
+}
 
 .profile-container {
     max-width: 480px;
+    min-height: 100vh;
+    position: relative;
     margin: 60px auto 0 auto;
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     padding: 32px 24px 32px 24px;
     text-align: center;
+    z-index: 1;
 }
 
 .about-section, .social-section, .other-section {
     margin-top: 28px;
     padding: 0 8px;
+    position: relative;
+    z-index: 1;
     text-align: left;
 }
 
@@ -75,10 +93,4 @@ h1 {
     margin-top: 0;
     margin-bottom: 12px;
     font-size: 2.2rem;
-}
-
-
-    color: #666;
-    font-size: 1.1rem;
-    margin-bottom: 0;
 }
